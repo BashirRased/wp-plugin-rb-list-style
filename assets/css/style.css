@@ -1,0 +1,26 @@
+.rb-section-header-1 {
+	text-align: center;
+}
+
+.rb-section-title {
+    position: relative;
+}
+
+.rb-section-title:before {
+	content: "";
+	position: absolute;
+}
+
+.rb-section-title:after {
+	content: "";
+	position: absolute;	
+}
+
+.rb-section-header-1 .rb-section-title:before {
+	left: 50%;
+    transform: translateX(-50%);
+}
+
+.rb-section-header-1 .rb-section-title:after {
+	left: 50%;
+}
